@@ -1,9 +1,8 @@
 var addon = require("bindings")("sdkaddon");
 
-console.log("1");
 try {
-  console.log("test ", addon.test());
+  console.log("js " + addon.test());
 } catch (error) {
-  console.log(error);
+  console.log("error", error);
 }
-console.log("2");
+console.log("js end");
