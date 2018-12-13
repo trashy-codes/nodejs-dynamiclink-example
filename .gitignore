@@ -1,2 +1,4 @@
 Debug
 .vs
+/myaddon/node_modules
+/myaddon/build
