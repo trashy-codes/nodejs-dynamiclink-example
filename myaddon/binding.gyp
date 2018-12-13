@@ -17,10 +17,26 @@
               ['target_arch=="ia32"', {
                 'libraries': [
                   '<(PRODUCT_DIR)/../../sdk/lib/x86/sdk.lib',
+                ],
+                "copies": [
+                  {
+                    "destination": "build/Release",
+                    "files": [
+                      "sdk/lib/x86/sdk.dll"
+                    ]
+                  }
                 ]
               },{
                 'libraries': [
                   '<(PRODUCT_DIR)/../../sdk/lib/x64/sdk.lib',
+                ],
+                "copies": [
+                  {
+                    "destination": "build/Release",
+                    "files": [
+                      "sdk/lib/x64/sdk.dll"
+                    ]
+                  }
                 ]
               }]
             ],
