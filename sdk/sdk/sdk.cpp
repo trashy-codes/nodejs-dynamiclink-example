@@ -11,5 +11,9 @@ sdk::~sdk()
 }
 
 std::string sdk::Test() {
-	return std::string("hello world");
+	return "hello world";
+}
+
+int sdk::Scan() {
+	return 10;
 }
