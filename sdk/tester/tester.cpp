@@ -7,7 +7,7 @@
 
 int main()
 {
-	std::cout << "Hello World!\n" + sdk::Test();
+	std::cout << "111\n" << sdk::Test() << "\nend";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
