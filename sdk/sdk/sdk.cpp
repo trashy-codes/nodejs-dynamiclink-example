@@ -1,19 +1,8 @@
 #include "stdafx.h"
 #include "sdk.h"
 
-sdk::sdk()
+void  sdk::Test(char* string)
 {
+	strcpy_s(string, 100, "hello world");
 }
 
-
-sdk::~sdk()
-{
-}
-
-std::string sdk::Test() {
-	return "hello world";
-}
-
-int sdk::Scan() {
-	return 10;
-}

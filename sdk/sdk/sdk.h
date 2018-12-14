@@ -4,10 +4,5 @@
 class sdk
 {
 public:
-	sdk();
-	~sdk();
-
-	static __declspec(dllexport) std::string Test();
-	//ษจร่
-	static __declspec(dllexport) int Scan();
+	static __declspec(dllexport) void Test(char* string);
 };

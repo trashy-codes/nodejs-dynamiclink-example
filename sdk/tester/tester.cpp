@@ -7,7 +7,15 @@
 
 int main()
 {
-	std::cout << "111\n" << sdk::Test() << "\nend";
+	//std::string str = sdk::Test();
+	//printf("content= %s end", str.c_str());
+	//std::cout << "111\n" << sdk::Test() << "\nend";
+
+	char str[100];
+	sdk::Test(str);
+	printf("%s", str);
+	//std::cout << "111\n" << sdk::fun() << "\nend";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
