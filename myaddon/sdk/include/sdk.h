@@ -1,12 +1,8 @@
 #pragma once
-#include <string>
+#include<string>
 
 class sdk
 {
-  public:
-	sdk();
-	~sdk();
-
-	static __declspec(dllexport) std::string Test();
-	static __declspec(dllexport) int Scan();
+public:
+	static __declspec(dllexport) void Test(char* string);
 };
